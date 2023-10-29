@@ -4,11 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-/**
- * @author DIMAS
- * @method int, main
- * @implNote Mencari Bilangan Modus
- */
 public class Main{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -28,11 +23,6 @@ public class Main{
         scanner.close();
     }
 
-    /**
-     *
-     * @param numbers masukan angka
-     * @return hasil modus
-     */
     public static int findMode(int[] numbers) {
         // Membuat peta (map) untuk menghitung frekuensi setiap angka
         Map<Integer, Integer> numberFrequency = new HashMap<>();
